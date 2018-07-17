@@ -1,5 +1,5 @@
 <strong>WEATHER APP</strong>
-<p> This project is a part of workshop. It was based on api data from https://openweathermap.org/.
+<p> This project is a part of workshop. It was based on the api data from https://openweathermap.org/.
   The site has the following functionality:
   <ul>
     <li>User can search for weather using zip code (if it is only in the USA) or specifying city and country; </li>
