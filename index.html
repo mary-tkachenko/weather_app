@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEATHER</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+</head>
+<body>
+
+	<div id="main">
+		<div id="search_main">
+
+			 <form action="result.html" method="get">
+			 <input type="text" name="location_city" id="location_city" placeholder="CITY"><br>
+			 <input type="text" name="location_country" id="location_country" placeholder="COUNTRY"><br> 
+			  <input type="text" name="location_zip" id="location_zip" placeholder="ZIP"><br>
+
+			  <select id="select_how" name="select_result">
+                          <option value="zip" >Zip</option>
+                          <option value="city_country">City/Country</option>
+                    </select>
+
+			  <input type="submit" value="SUBMIT" id="submit">
+			</form>
+				
+		</div>
+		<div id="city_country">
+			<div id="city"></div>
+			<div id="country"></div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src="main.js"></script> 
+</body>
+</html>
