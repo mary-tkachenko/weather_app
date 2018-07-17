@@ -1,0 +1,176 @@
+#main {
+	height: 800px;
+	background-image: url("media/earth.jpeg");
+	font-family: 'Monda', sans-serif;
+}
+#search_main {
+	padding-left: 300px;
+    padding-top: 300px;
+
+}
+form {
+	/*color: white;*/
+	display: flex;
+}
+
+/*#input_location #location,
+ #select_how, */
+ #submit_form,
+ #location_city,
+ #location_country,
+ #select_how,
+ #location_zip {
+	height: 50px;
+	width: 200px;
+	background: transparent;
+    border: 1px solid black;
+    opacity: 0.5;
+    /*color: white;*/
+    text-align: center;
+    box-shadow: 5px 10px 8px #888888;
+    margin:30px;
+    /*font-family: 'Monda', sans-serif;*/
+
+}
+
+#submit {
+	 height: 50px;
+    
+    background-color: transparent;
+    border: 1px solid #333333;
+    color: #333333;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 30px;
+    opacity: 0.6;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 8%;
+}
+}
+
+
+/*
+RESULT PAGE*/
+
+
+
+#result_main {
+	/*height: 800px;
+	  background-image: url("media/default.jpeg");
+	font-family: 'Monda', sans-serif;*/
+}
+
+#location_result,
+#data,
+#humidity_wind {
+	display: flex;
+	/*border: 2px solid orange;*/
+	height: 150px;
+	margin: 10px;
+	justify-content: space-around;
+}
+
+#city_result,
+#country_result,
+#current,
+#min_max,
+#humidity,
+#wind {
+	display: flex;
+	/*border: 2px solid #333333;*/
+	width: 300px;
+}
+
+#title {
+	/*border: 2px solid #333333;*/
+	width: 300px;
+	height: 50px;
+	margin: auto;
+}
+
+.hide {
+	display: none;
+}
+
+
+/*background*/
+
+.default {
+	background-image: url("media/default2.jpg");
+	font-family: 'Monda', sans-serif;
+	height: 800px;
+
+}
+
+.sunny {
+	background-image: url("media/sunny.jpg");
+	font-family: 'Monda', sans-serif;
+	height: 800px;
+}
+
+.rainy {
+	background-image: url("media/rainy.jpeg");
+	font-family: 'Monda', sans-serif;
+	height: 800px;
+}
+
+.cloudy {
+	background-image: url("media/cloudy.jpeg");
+	font-family: 'Monda', sans-serif;
+	height: 800px;
+}
+
+.thunder {
+	background-image: url("media/thunder.jpeg");
+	font-family: 'Monda', sans-serif;
+	height: 800px;
+}
+
+
+#city_result {
+
+   margin-top: 104px;
+   margin-left: 78px;
+   background-color: rgba(255,255,255, 0.3);
+       width: 160px;
+    padding: 10px;
+}
+
+#country_result {
+	margin-top: 104px;
+    margin-right: 900px;
+    background-color: rgba(255,255,255, 0.3);
+     width: 160px;
+    padding: 10px;
+}
+
+#min_max {
+	    display: flex;
+    flex-direction: column;
+
+}
+ #todays_weather {
+ 	margin-top: 96px;
+
+ }
+
+#data {
+	    margin-top: 71px;
+}
+
+#current,
+#min,
+#max,
+#humidity,
+#wind {
+	background-color: rgba(255,255,255, 0.3);
+	    height: 25px;
+    padding: 10px;
+}
+
+#min{
+margin-bottom: 10px;
+}
