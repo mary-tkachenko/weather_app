@@ -15,5 +15,11 @@
 
 <img src="https://github.com/mary-tkachenko/weather_app/blob/04030053807aca40a0261b37fd09567cfb8c2e12/screens/Screenshot%202018-07-17%2009.52.19.png?raw=true." width="400"/>
 
+<p>Default picture when the search gets an error:</p>
+
+<img src="https://github.com/mary-tkachenko/weather_app/blob/master/media/Screen%20Shot%202018-08-03%20at%201.37.26%20PM.png?raw=true" width="400"/>
+
+https://github.com/mary-tkachenko/weather_app/blob/master/media/Screen%20Shot%202018-08-03%20at%201.37.26%20PM.png?raw=true
+
 <p>Post-MVP includes converting Kelvin to Celsius and Fahrenheit, adding background images due to snow, wind, hail or hurricaine, improving search posibilities...</p>
 
