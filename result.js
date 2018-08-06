@@ -1,4 +1,4 @@
-// axios.get("http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=d5b114d27669135ce9a0318b2b940894").then((response) => {
+// axios.get("http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=KEY").then((response) => {
 // 	console.log(response);
 
 
@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
     	// console.log('zip');
 		const zip_string = urlParams.get('location_zip');
 		// console.log(zip_string);
-		const zip_link = 'http://api.openweathermap.org/data/2.5/weather?zip=' + zip_string +',us&appid=d5b114d27669135ce9a0318b2b940894';
+		const zip_link = 'http://api.openweathermap.org/data/2.5/weather?zip=' + zip_string +',us&appid=KEY';
 		// console.log(zip_link);
 		axios.get(zip_link).then(displayWeatherFromAxios);
 
@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
     	// console.log(country_string);
 
     	const city_country_link = 'http://api.openweathermap.org/data/2.5/weather?q=' + city_string + ',' +
-    	country_string +'&APPID=d5b114d27669135ce9a0318b2b940894';
+    	country_string +'&APPID=KEY';
     	axios.get(city_country_link).then(displayWeatherFromAxios);
     }
 
