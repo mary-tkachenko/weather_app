@@ -19,7 +19,6 @@
 
 <img src="https://github.com/mary-tkachenko/weather_app/blob/master/media/Screen%20Shot%202018-08-03%20at%201.37.26%20PM.png?raw=true" width="400"/>
 
-https://github.com/mary-tkachenko/weather_app/blob/master/media/Screen%20Shot%202018-08-03%20at%201.37.26%20PM.png?raw=true
 
 <p>Post-MVP includes converting Kelvin to Celsius and Fahrenheit, adding background images due to snow, wind, hail or hurricaine, improving search posibilities...</p>
 
